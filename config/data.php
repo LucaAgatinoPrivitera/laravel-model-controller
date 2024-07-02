@@ -1,5 +1,6 @@
 <?php
 
 return [
-    "home" => 42
+    "home" => 42,
+    "bonus" => "benvenuto nel bonus"
 ];

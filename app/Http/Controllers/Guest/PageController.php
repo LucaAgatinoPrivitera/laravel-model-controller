@@ -28,7 +28,7 @@ class PageController extends Controller
             "movie" => $film
         ];
 
-        return view('home', $dati);
+        return view('bonus', $dati);
     }
 }
 

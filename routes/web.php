@@ -20,3 +20,5 @@ use Illuminate\Support\Facades\Route;
 // })->name("home");
 
 Route::get('/', [PageController::class, "home"]) ->name("home");
+
+Route::get('/bonus', [PageController::class, "movieList"]) ->name("bonus");
