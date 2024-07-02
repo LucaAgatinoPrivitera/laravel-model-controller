@@ -6,6 +6,8 @@
 <button class="btn btn-primary">Cliccami</button>
 
 @foreach ($movie as $singoloMovie)
-    <p>Ciao</p>
+    <p>{{ $singoloMovie->title }}</p> 
+    {{-- Qui si deve usare -> perché accedo ad un attributo dell'array associativo, mentre => si usa quando definisco indice con un nome giusto? Da chiedere --}}
 @endforeach
+
 @endsection

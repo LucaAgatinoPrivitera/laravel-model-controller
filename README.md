@@ -72,3 +72,4 @@ Avrete bisogno di due rotte, due metodi nel controller e due viste!
 Da chiedere: 
 	ma devo usare il server del  npm run dev o dell'artisan serve? quest'ultimo non ha css.
 	use App/Models/Movie... use sta per usa nel senso di importa?
+	Qui si deve usare -> perché accedo ad un attributo dell'array associativo, mentre => si usa quando definisco indice con un nome giusto?

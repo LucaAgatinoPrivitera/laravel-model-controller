@@ -19,4 +19,16 @@ class PageController extends Controller
 
         return view('home', $dati);
     }
+
+    public function movieList()
+    {
+        $film = Movie::all(); //funziona solo grazie al "use App\Models\Movie;" sopra, altrimenti non ci sarebbe niente importato
+        $dati = [
+            "store" => config("data"),
+            "movie" => $film
+        ];
+
+        return view('home', $dati);
+    }
 }
+
